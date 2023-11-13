@@ -1,0 +1,22 @@
+[package]
+name = "baidu_rpc_meta"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "A rust wrapper of baidu_rpc_meta for the baidu_std protocol"
+documentation = "https://docs.rs/baidu_rpc_meta"
+readme = "README.md"
+homepage = "https://github.com/SF-Zhou/baidu_rpc_meta"
+repository = "https://github.com/SF-Zhou/baidu_rpc_meta"
+
+[dependencies]
+futures = "^0.3"
+pilota = "^0.9"
+volo = "^0.8"
+volo-grpc = "0.8"
+
+[build-dependencies]
+volo-build = "^0.8"
+
+[dev-dependencies]
+bytes = "^1.5"

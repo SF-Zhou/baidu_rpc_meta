@@ -1,0 +1,9 @@
+entries:
+  default:
+    protocol: protobuf
+    filename: baidu_rpc_meta.rs
+    idls:
+    - source: local
+      path: idl/baidu_rpc_meta.proto
+      includes:
+      - idl
